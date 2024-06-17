@@ -1,0 +1,185 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+.container{
+	width: 1194px;
+	height: 834px;
+	background: black;
+	display: flex;
+}
+.left-section{
+	width: 346px;
+	height: 834px;
+	background: #0E002C;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 2;
+}
+.box1{
+	width: 346px;
+	height: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.button{
+	height: 25px;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 24px;
+	padding: 15px;
+}
+.button:hover{
+	border-left: 10px solid #D0BB00;
+	padding-right: 5px;
+}
+.box2{
+	width: 335px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.pause{
+	width: 190px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.input{
+	width: 335px;
+}
+.title{
+	font-size: 24px;
+	font-weight: 700;
+}
+.subtitle{
+	font-size: 24px;
+}
+.right-section{
+	width: 848px;
+	height: 834px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.box3{
+	width: 750px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+	margin-top: 20px;
+}
+.morning{
+	font-size: 24px;
+	font-weight: 700;
+}
+.wrap{
+	width: 155px;
+	display: flex;
+	justify-content: space-between;
+}
+.box4{
+	display: grid;
+	grid-template-columns: 341px 209px 190px;
+	grid-template-rows: 74px;
+	grid-gap: 20px; 
+	z-index: 2;
+}
+.wrapper, .wrapper2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 700;
+}
+.icon{
+	margin: 10px;
+}
+.one{
+	background: #474747;
+	border-radius: 16px;
+}
+.two{
+	background-image: url('../img/Rectangle1.png');
+}
+.three{
+	background-image: url('../img/Rectangle2.png');
+}
+.box5{
+	display: grid;
+	grid-template-columns: repeat(3, 249px);
+	grid-template-rows: 74px;
+	grid-gap: 15px; 
+}
+.one2{
+	background-image: url('../img/Rectangle3.png');
+}
+.two2{
+	background-image: url('../img/Rectangle4.png');
+}
+.three2{
+	background-image: url('../img/Rectangle5.png');
+}
+.box6{
+	display: grid;
+	grid-template-columns: 189px 189px 290px;
+	grid-template-rows: 38px 189px 68px;
+	grid-gap: 37px;
+	font-size: 24px;
+	font-weight: 700;
+	grid-template-areas: "text text text text"
+	                     "old pop hits hits"
+	                     "mixes . hits hits";
+}
+.wrapper3{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 10px;
+}
+.one3{
+	background-image: url('../img/Rectangle6.png');
+	grid-area: old;
+}
+.two3{
+	background-image: url('../img/Rectangle7.png');
+	grid-area: pop;
+}
+.three3{
+	background-image: url('../img/Rectangle8.png');
+	grid-area: hits;
+}
+.text-try{
+	grid-area: text;
+	margin-left: 20px;
+}
+.title2{
+	grid-area: mixes;
+	margin-top: 35px;
+}
+.box7{
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(3, 250px);
+	margin-top: x;
+}
+.element{
+	position: absolute;
+	z-index: 1;
+	bottom: 500px;
+	left: 320px;
+}
